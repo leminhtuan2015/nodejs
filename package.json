@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "subdomain": "socketio",
+  "description": "Sample API in socket io",
+  "version": "0.0.1",
+  "dependencies": { "flatiron": "0.1.x", "union": "0.1.x" },
+  "devDependencies": { "specify": "0.1.x" },
+  "scripts": {
+    "test": "ls -tr test/*.js | xargs -I{} node {}",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}
